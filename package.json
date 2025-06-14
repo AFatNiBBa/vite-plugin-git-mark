@@ -1,0 +1,38 @@
+{
+  "name": "vite-plugin-git-mark",
+  "version": "1.0.0",
+  "description": "Adds metadata about the current git repo state to entry points at build time",
+  "author": "AFatNiBBa",
+  "license": "ISC",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    "require": "./dist/index.js",
+    "import": "./dist/index.mjs",
+    "types": "./dist/index.d.ts"
+  },
+  "scripts": {
+    "build": "vite build",
+    "save": "npm run build && npm publish"
+  },
+  "devDependencies": {
+    "@types/node": "^20.6.0",
+    "vite-plugin-dts": "^3.5.3"
+  },
+  "peerDependencies": {
+    "vite": ">=4.4.9"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AFatNiBBa/vite-plugin-git-mark.git"
+  },
+  "keywords": [
+    "vite",
+    "plugin",
+    "git",
+    "hash",
+    "meta",
+    "metadata",
+    "build",
+    "debug"
+  ]
+}
