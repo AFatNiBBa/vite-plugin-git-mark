@@ -9,7 +9,7 @@ export default defineConfig({
         minify: false,
         target: "ESNext",
         rollupOptions: {
-            external: [ "child_process", "vite" ],
+            external: [ "child_process", "path", "vite" ],
         },
         lib: {
             entry: join(import.meta.dirname, "src/index.ts"),

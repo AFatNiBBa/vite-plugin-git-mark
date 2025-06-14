@@ -15,17 +15,18 @@ export default defineConfig({
 ```
 
 ## Result
-The plugin will add some debug informations at the end of entry points using the right syntax depending on the language
+The plugin will add some debug informations at the top of entry points using the right syntax depending on the language
 - **HTML**
   ```html
-  ...
   <!-- Git metadata: {"commit":"64050e6a6345b171a35f81833367ba486ca13338","branch":"main","pending":false,"time":"2025-06-14T00:43:58.551Z"} -->
+  ...
   ```
 - **JavaScript (Or TypeScript)**
   ```js
-  ...
   // Git metadata: {"commit":"64050e6a6345b171a35f81833367ba486ca13338","branch":"main","pending":false,"time":"2025-06-14T00:43:58.551Z"}
+  ...
   ```
+- Etc
 
 ## Metadata
 These are the informations that get added to the entry points
