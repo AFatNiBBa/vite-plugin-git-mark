@@ -1,6 +1,6 @@
 {
   "name": "vite-plugin-git-mark",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Adds metadata about the current git repo state to entry points at build time",
   "author": "AFatNiBBa",
   "license": "ISC",

@@ -8,6 +8,7 @@ export default function gitMarkPlugin(): Plugin {
     var comment: string;
     return {
         name,
+        apply: "build",
 
         async config() {
             const [ commit, branch, pending ] = await Promise.all([
